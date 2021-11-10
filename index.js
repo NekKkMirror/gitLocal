@@ -9,3 +9,5 @@ document.body.innerHTML = '<h1>Hello from JavaScript</h1>'
 // после merge можно удалить ветку которую добавили
 // получаю данные(или устанавливаю) git config --global user.name  из github так же могу зменить его в рамках текущего репозитория git config --global user.name "Nikita"
 // git remote add origin url добавляем наш удаленный репозиторий
+// отправить данные на удаленный репозиторий git push -u origin названиеВетки
+// далее если у нас обновляются данные мы их(доабвляем в локальынй репозиторий комитим) и далее пишем git push
